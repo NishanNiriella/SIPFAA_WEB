@@ -687,6 +687,61 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+.team .icon-box {
+  padding: 30px 30px;
+  transition: all ease-in-out 0.3s;
+  background: #fefefe;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  border-radius: 18px;
+  border-bottom: 5px solid #fff;
+}
+
+.team .icon-box .icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.team .icon-box .icon i {
+  font-size: 28px;
+}
+
+.team .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.team .icon-box h4 a {
+  color: #282828;
+  transition: ease-in-out 0.3s;
+}
+
+.team .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.team .icon-box:hover {
+  transform: translateY(-10px);
+  border-color: #009961;
+}
+
+.team .icon-box:hover h4 a {
+  color: #009961;
+}
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -1560,4 +1615,11 @@ section {
 
 #footer .credits a:hover {
   color: #009961;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
